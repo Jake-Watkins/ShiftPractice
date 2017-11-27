@@ -1,0 +1,7 @@
+CC = gcc
+TARGET = ShiftPractice
+
+all:$(TARGET)
+
+$(TARGET): ShiftPractice.c
+	gcc -o ShiftPractic ShiftPractic.c -lncurses
